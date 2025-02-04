@@ -64,6 +64,17 @@ public class QueueUsingLL {
         }
     }
 
+    static int peek(){
+        if(isEmpty()){
+            System.out.println("Queue is Empty");
+            return -1;
+        }
+        else{
+            return arr[front];
+        }
+    }
+
+
     static void display(){
         if(isEmpty()){
             System.out.println("Queue is Empty");
