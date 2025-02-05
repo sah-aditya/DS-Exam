@@ -1,7 +1,5 @@
 package Queue;
 
-import java.sql.SQLOutput;
-
 public class QueueUsingArray {
     static int [] arr;
     static int front;

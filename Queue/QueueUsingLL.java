@@ -56,7 +56,7 @@ public class QueueUsingLL {
         }
         else{
             int res=front.data;
-            int temp=front;
+            Node temp=front;
             front=front.next;
             temp=null;
             size--;
@@ -70,7 +70,7 @@ public class QueueUsingLL {
             return -1;
         }
         else{
-            return arr[front];
+            return front.data;
         }
     }
 
